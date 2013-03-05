@@ -32,8 +32,8 @@ void loop() {
 
 // The beep method, causes the piezo to beep once.
 void beep() {
-  analogWrite(buzzerPin, 20);
-  delay(10);
+  analogWrite(buzzerPin, 100);
+  delay(300);
   analogWrite(buzzerPin, 0);
-  delay(10);
+  delay(300);
 } 
