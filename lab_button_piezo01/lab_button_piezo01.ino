@@ -15,7 +15,7 @@ void loop() {
   
   Serial.println(buttonState);
   if (buttonState == HIGH) {
-    //beep(); // Calls the beep method.  
+    beep(); // Calls the beep method.  
   }
   
   delay(100);
