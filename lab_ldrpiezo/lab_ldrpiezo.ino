@@ -1,5 +1,5 @@
-const int buzzerPin = 9; // Digital pin that the buzzer is connected to.
-const int sensorPin = A0; // Analog pin that the sensor is connected to.
+int buzzerPin = 9; // Digital pin that the buzzer is connected to.
+int sensorPin = A0; // Analog pin that the sensor is connected to.
 
 // Initial values for threshold and sensor data.
 int sensorData = 0;

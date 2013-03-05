@@ -1,6 +1,6 @@
 
-const int buzzerPin = 9;
-const int buttonPin = 2;
+int buzzerPin = 9;
+int buttonPin = 2;
 
 int buttonState = 0;
 
