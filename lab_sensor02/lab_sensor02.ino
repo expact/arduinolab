@@ -1,5 +1,16 @@
-// Read input from a sensor
-// Use the input to trigger something.
+/* 
+ Read input from a sensor
+ Use the input to trigger something.
+
+ Circuit:
+ * Photo resistor to analog input 0.
+ * one side to +5v.
+ * other side attached to ground.
+ * resistor attached from analog in 0 to ground.
+ * LED connected to pin 13.
+ * anode (long leg) attached to digital output 13
+ * cathode (short leg) attached to ground
+*/
 
 const int sensorPin = A0; // The analog pin that the sensor is connected to.
 const int ledPin = 13; // The pin where the LED is connected.

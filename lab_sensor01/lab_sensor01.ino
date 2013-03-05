@@ -1,4 +1,13 @@
-// Read input from a sensor
+/*
+ Read input from a sensor.
+
+ Circuit:
+ * Photo resistor to analog input 0.
+ * one side to +5v.
+ * other side attached to ground.
+ * resistor attached from analog in 0 to ground.
+*/
+
 
 const int sensorPin = A0; // The analog pin on the Arduino that the sensor is connected to.
 int sensorData = 0; // Variable of where the sensor data is collected.
