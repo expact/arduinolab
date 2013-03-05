@@ -1,6 +1,6 @@
 // LED Blink
 
-const int ledPin = 13; // The Digital (PWM) pin on the Arduino.
+const int ledPin = 13; // The pin on the Arduino.
 
 void setup() {
   pinMode(ledPin, OUTPUT); // Configures this pin to be used as output.
