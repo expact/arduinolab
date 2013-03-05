@@ -12,8 +12,8 @@
  * cathode (short leg) attached to ground
 */
 
-const int sensorPin = A0; // The analog pin that the sensor is connected to.
-const int ledPin = 13; // The pin where the LED is connected.
+int sensorPin = A0; // The analog pin that the sensor is connected to.
+int ledPin = 13; // The pin where the LED is connected.
 int sensorData = 0; // Variable of where the sensor data is collected.
 
 void setup() {
