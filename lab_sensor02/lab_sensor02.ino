@@ -7,13 +7,13 @@
  * one side to +5v.
  * other side attached to ground.
  * resistor attached from analog in 0 to ground.
- * LED connected to pin 13.
- * anode (long leg) attached to digital output 13
+ * LED connected to pin 11.
+ * anode (long leg) attached to digital output 11
  * cathode (short leg) attached to ground
 */
 
 int sensorPin = A0; // The analog pin that the sensor is connected to.
-int ledPin = 13; // The pin where the LED is connected.
+int ledPin = 11; // The pin where the LED is connected.
 int sensorData = 0; // Variable of where the sensor data is collected.
 
 void setup() {
