@@ -18,7 +18,7 @@ void loop() {
     beep(); // Calls the beep method.  
   }
   
-  delay(100);
+  delay(2);
 }
 
 // The beep method, causes the piezo to beep once.

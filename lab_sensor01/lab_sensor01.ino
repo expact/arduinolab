@@ -19,5 +19,5 @@ void setup() {
 void loop() {
   sensorData = analogRead(sensorPin); // Read the data from tne sensor.
   Serial.println(sensorData); // Print the data to the Serial Monitor so that we can watch it.
-  delay(100); // Pause to make it easier to read the values.
+  delay(10); // Pause to make it easier to read the values.
 }

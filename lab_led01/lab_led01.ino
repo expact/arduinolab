@@ -2,11 +2,11 @@
 Making a LED Blink by periodically turning it on and off.
 
 Circuit:
-* Connect LED to pin 13 through a resistor. (long leg on the LED)
+* Connect LED to pin 2 through a resistor. (long leg on the LED)
 * Connect GND to the other leg.
 */
 
-int ledPin = 13; // The pin on the Arduino.
+int ledPin = 2; // The pin on the Arduino.
 
 void setup() {
   // Code here is run once.
