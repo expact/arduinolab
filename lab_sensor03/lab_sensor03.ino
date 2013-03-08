@@ -7,10 +7,12 @@ int brightness = 0; // Brightness of the LED, 255 is full brigthness and 0 is co
 
 void setup() {
   pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
   sensorData = analogRead(sensorPin); // Read the data from tne sensor.
+  Serial.println(sensorData);
 
   // Re-map the sensor value from the range 0, 1023 to 0, 255.
   brightness = map(1023 - sensorData, 0, 1023, 0, 255);
