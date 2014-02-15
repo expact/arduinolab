@@ -1,3 +1,6 @@
+// Read a value sent from Processing.
+
+// Use this demo with the Processing app "sendval".
 
 int ledPin = 13;
 int val = 0;
