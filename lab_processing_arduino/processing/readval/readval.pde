@@ -1,6 +1,4 @@
-/**
- * Read value from Arduino
- */
+// Use this with the arduino app "sendval".
 
 import processing.serial.*;
 

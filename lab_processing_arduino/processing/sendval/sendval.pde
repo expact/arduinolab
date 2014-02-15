@@ -1,4 +1,6 @@
 
+// Use this with the arduino app "readval".
+
 import ddf.minim.*;
 import processing.serial.*;
 

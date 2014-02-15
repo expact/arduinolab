@@ -1,8 +1,4 @@
-/**
- * Read value from Arduino
- *
- * Use the value as input to control a sound using minim.
- */
+// Use this with the arduino app sendval.
 
 import processing.serial.*;
 import ddf.minim.*;
